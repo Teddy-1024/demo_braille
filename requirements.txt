@@ -1,0 +1,14 @@
+# Requirements
+pandas
+numpy
+prettytable
+openpyscad
+pydantic
+webcolors
+
+
+# built-in
+# enum
+# os
+# sys
+# typing
