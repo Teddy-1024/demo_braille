@@ -33,10 +33,10 @@ NOTE: ALL INSTRUCTIONS ARE FOR LINUX.
 
 # Gallery
 3D render of Braille object  
-![3D render of Braille object](docs\Braille_Keyboard_render_simple.png)
+![3D render of Braille object](docs/Braille_Keyboard_render_simple.png)
   
 3D printed Braille object  
-![3D printed Braille object](docs\Braille_Keyboard_Mini.jpg)
+![3D printed Braille object](docs/Braille_Keyboard_Mini.jpg)
 
 
 # License
