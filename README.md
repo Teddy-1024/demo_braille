@@ -28,10 +28,10 @@ NOTE: ALL INSTRUCTIONS ARE FOR LINUX.
 
 ## 11. Run project
 11.1. Run interactive translator tool with terminal command  
-- python3 main.py
+- python3 main.py  
 
-11.2. Run tests
-- python3 tests/all_tests.py
+11.2. Run tests with terminal command  
+- python3 tests/all_tests.py  
 
 
 # Gallery
