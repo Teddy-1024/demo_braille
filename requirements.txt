@@ -1,14 +1,8 @@
 # Requirements
-pandas
 numpy
-prettytable
 openpyscad
+pandas
+prettytable
 pydantic
+setuptools
 webcolors
-
-
-# built-in
-# enum
-# os
-# sys
-# typing
