@@ -7,7 +7,7 @@ from context import business_objects
 from business_objects.character_braille import Character_Braille
 from business_objects.translation_braille import Translation_Braille
 
-if __name__ == "__main__":
+def test_get_all_characters():
     braille_translations = Translation_Braille.get_defaults()
     for braille_translation_row in braille_translations.iterrows():
         braille_translation_series = braille_translation_row[1]
@@ -19,4 +19,6 @@ if __name__ == "__main__":
 
         braille_translation = Translation_Braille(plaintext = plaintext, translation_proficiency_level = translation_proficiency_level, braille_text = braille_characters)
         braille_translation.print()
-        
+
+if __name__ == "__main__":
+    test_get_all_characters()

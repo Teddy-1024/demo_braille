@@ -61,7 +61,7 @@ class Translation_Braille(BaseModel):
                     break
                 if known_translations.apply(lambda x: x.iloc[3] == key and x.iloc[1].value <= self.translation_proficiency_level.value, axis=1).any():
                     translation_Braille = known_translations.apply(lambda x: x if (x.iloc[3] == key and x.iloc[1].value <= self.translation_proficiency_level.value) else None, axis=1).dropna().values.tolist()[0]
-                    braille_text.append(translation_Braille.iloc[2])
+                    braille_text.append(translation_Braille[2])
                     index_key_start += key_length
                     found_key = True
                     break

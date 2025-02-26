@@ -16,19 +16,22 @@ NOTE: ALL INSTRUCTIONS ARE FOR LINUX.
 
 ## 2. Create virtual environment
 2.1. Terminal command  
-- python3 -m venv env_demo_partsERP  
+- python3 -m venv env_demo_braille  
 
 ## 3. Enter virtual environment
 3.1. Terminal command  
-- source env_demo_partsERP/bin/activate  
+- source env_demo_braille/bin/activate  
 
 ## 4. Install required python packages
 4.1. Terminal command  
 - pip3 install -r requirements.txt  
 
 ## 11. Run project
-11.1. Terminal command  
-- python3 model_gen/main.py
+11.1. Run interactive translator tool with terminal command  
+- python3 main.py
+
+11.2. Run tests
+- python3 tests/all_tests.py
 
 
 # Gallery
